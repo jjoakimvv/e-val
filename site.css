@@ -51,10 +51,19 @@ body{
  margin: 19pt;
  }
 
+ a:link{
+  text-decoration: none;
+ }
+
+ .site-index{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 .navbar-links a{
- text-decoration: dotted;
+ grid-row: 3;
+ grid-column: 3/3;
  color: blue;
- orientation: landscape;
  }
  .navbar-links a:hover{
   text-decoration: double ;
