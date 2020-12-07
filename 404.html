@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>404 - Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Webbsida för att rösta">
+    <meta name="keywords" content="E-val, eval, internet, valmyndigheten">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <style>
+        .text1-404{
+          width: 100%;
+          text-align: center;
+          font-size: 3em;
+        }
+        .text2-404{
+          width: 100%;
+          text-align: center;
+        }
+      </style>
+</head>
+
+<body>
+    <div>
+
+      <header class="invisible-header"></header>
+
+      <!-- Brett fönster -->
+      <header class="navbar-brett" id="brett">
+        <div class="navbar-logo">
+          <a href="index.html"><img src="./bilder/logo_elbutiken.png" alt="logo" style="height: 50px;"></a>
+        </div>
+        <nav class="navbar-links">
+          <ul>
+            <li><a aria-label="Varukorg" href="varukorg.html">Varukorg</a></li>
+            <li><a aria-label="Kontakt" href="kontakt.html">Kontakt</a></li>
+            <li><a aria-label="Om oss" href="omoss.html">Om oss</a></li>
+            <li><a aria-label="Handla" href="handla.html">Handla</a></li>
+            <li><a aria-label="Hem" href="index.html">Hem</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Mellan fönster -->
+      <header class="navbar-mellan" id="mellan">
+          <div class="navbar-logo">
+            <a href="index.html"><img src="./bilder/logo_elbutiken.png" alt="logo" style="height: 50px;"></a>
+          </div>
+          <nav class="navbar-links">
+            <ul>
+              <li><a aria-label="Varukorg" href="varukorg.html">Varukorg</a></li>
+              <li><a aria-label="Kontakt" href="kontakt.html">Kontakt</a></li>
+              <li><a aria-label="Om oss" href="omoss.html">Om oss</a></li>
+              <li><a aria-label="Handla" href="handla.html">Handla</a></li>
+              <li><a aria-label="Hem" href="index.html">Hem</a></li>
+            </ul>
+          </nav>
+        </header>
+      <!-- Smalt fönster -->
+       <header class="topnav">
+          <a href="index.html" class="active"><img src="./bilder/logo_elbutiken.png" alt="logo" style="height: 50px;"></a>
+          <!-- Navigation links (hidden by default) -->
+          <nav id="myLinks">
+                <ul>
+                  <li><a class="topnav-links" aria-label="Hem" href="index.html">Hem</a></li>
+                  <li><a class="topnav-links" aria-label="Handla" href="handla.html">Handla</a></li>
+                  <li><a class="topnav-links" aria-label="Om oss" href="omoss.html">Om oss</a></li>
+                  <li><a class="topnav-links" aria-label="Kontakt" href="kontakt.html">Kontakt</a></li>
+                  <li><a class="topnav-links" aria-label="Varukorg" href="varukorg.html">Varukorg</a></li>
+                </ul>
+            </nav>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+         </header>
+
+        <main class="main-area-index shoppa-knapp">
+            <h1 class="text1-404"><br><br>404 Page Not Found</h1>
+            <p class="text2-404"><br><br>Sorry, but the page you were trying to view does not exist. <br><br><br>
+            <a class="btn" href="handla.html">Tryck här för att fortsätta handla</a>
+            </p>
+        </main>
+    </div>
+</body>
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
