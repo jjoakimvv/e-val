@@ -44,58 +44,60 @@ table {
 }
 /* CSS-RESET END*/
 
-
-
 body{
- background-color: rgb(66, 222, 250);
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	}
+	background-color:#A1CDF4/*rgb(66, 222, 250)*/;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 	
-	header{
-		background-color: white;
-	}
+header{
+	background-color: white;
+}
 
-	.navbar{
-		display: grid;
-  grid-template-columns: auto auto auto;
-	}
+.navbar{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
 
-	.logo{
-		padding: 1em;
-	}
+.logo{
+	padding: 1em;
+}
 
-	.logo-img{
-		 height: 60px;
-	}
-	
-	.front-img{
+.logo-img{
+	height: 60px;
+}
+
+.front-img{
 	display: inline;
 	width: 100%;
-	}
+}
 
-	ul{
+ul{
 	list-style-type: none;
-  margin: 0;
-  padding: 0;
-		overflow: hidden;
-  background-color: rgb(75, 25, 212);
-	}
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #192A51/*rgb(75, 25, 212)*/;
+}
 
-	li {
+li {
 	float: left;
-	}
+}
 
-	li a {
+li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	}
+}
 
 li a:hover {
-	background-color: #111;
+	background-color: #3C787E;
+	font-size: 1.05em;
+	transition-duration: 1s;
 }
+
+
 
 
 
