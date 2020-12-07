@@ -60,13 +60,14 @@ body{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-.navbar-links a{
+ .navbar-links a{
  grid-row: 3;
  grid-column: 3/3;
  color: blue;
  }
+
  .navbar-links a:hover{
-  text-decoration: double ;
-  color: green;
-  }
+ text-decoration: double ;
+ color: green;
+ }
 
