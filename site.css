@@ -46,14 +46,41 @@ table {
 
 
 body{
-	background-color:#A1CDF4;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a{
 	text-decoration: none;
 }
-	
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  background-color: #A1CDF4;
+}
+
+.grid1 { 
+	grid-area: header; 
+}
+
+.grid2 { 
+	grid-area: main; 
+}
+
+.grid3 { 
+	grid-area: footer;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/*Header-Start*/
 header{
 	background-color: white;
 }
@@ -98,21 +125,18 @@ li a:hover {
 .active{
 	background-color: #3C787E;
 }
+/*Header-End*/
 
-.index-img{
-	width: 100%;
-}
-
+/*Index-Start*/
 .index-img{
 	background-image: url("./bilder/brygga.jpg") ; 
-	height: 600px;
+	height: 500px;
 	background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- position: relative;
 }
 
-.main-frame{
+.index-frame{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	background-color: rgb(238, 238, 238);
@@ -120,7 +144,6 @@ li a:hover {
 	border-radius: 7px;
 	width: 50%;
 	height: 50%;
-	position: absolute;
 	margin-top: 10%;
 	margin-left: 25%;
 }
@@ -136,10 +159,6 @@ li a:hover {
 	text-align: center;
 }
 
-.frame-1:hover{
-	transform: scale(1.03);
-}
-
 .frame-1-1{
 	background: rgb(215, 145, 224);
 	border-radius: 10px 10px 0px 0px;
@@ -148,8 +167,8 @@ li a:hover {
 	height: 75%;
 }
 
-.header-1{
- padding: 10%;
+.frame-1:hover{
+	transform: scale(1.03);
 }
 
 .frame-2{
@@ -163,10 +182,6 @@ li a:hover {
 	text-align: center;
 }
 
-.frame-2:hover{
-	transform: scale(1.03);
-}
-
 .frame-2-1{
 	background: rgb(133, 216, 177);
 	border-radius: 10px 10px 0px 0px;
@@ -175,8 +190,8 @@ li a:hover {
 	height: 75%;
 }
 
-.header-2{
-	padding: 10%;
+.frame-2:hover{
+	transform: scale(1.03);
 }
 
 .frame-3{
@@ -190,10 +205,6 @@ li a:hover {
 	text-align: center;
 }
 
-.frame-3:hover{
-	transform: scale(1.03);
-}
-
 .frame-3-1{
 	background: rgb(140, 198, 221);
 	border-radius: 10px 10px 0px 0px;
@@ -202,9 +213,55 @@ li a:hover {
 	height: 75%;
 }
 
-.header-3{
-	padding: 10%;
+.frame-3:hover{
+	transform: scale(1.03);
 }
+
+.header{
+ padding: 10%;
+}
+
+
+/*Index-End*/
+
+/*Val-Start*/
+.val-img{
+	background-image: url("./bilder/val.jpg") ; 
+	height: 500px;
+	background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+/*Val-End*/
+
+/*Info-Start*/
+.info-img{
+	background-image: url("./bilder/bibliotek.jpg") ; 
+	height: 500px;
+	background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+/*Info-End*/
+
+/*404-Start*/
+.main-404{
+	height: 400px;
+}
+
+.text1-404{
+	text-align: center;
+	font-size: 3em;
+	padding: 5%;
+}
+
+.text2-404{
+	text-align: center;
+}
+/*404-End*/
+
+
+
 
 
 
