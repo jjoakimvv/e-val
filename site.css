@@ -46,8 +46,12 @@ table {
 
 
 body{
-	background-color:#A1CDF4/*rgb(66, 222, 250)*/;
+	background-color:#A1CDF4;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+	text-decoration: none;
 }
 	
 header{
@@ -67,35 +71,139 @@ header{
 	height: 60px;
 }
 
-.front-img{
-	display: inline;
-	width: 100%;
-}
-
 ul{
-	list-style-type: none;
+ list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #192A51/*rgb(75, 25, 212)*/;
+	background-color: #192A51;
 }
 
 li {
 	float: left;
+	margin: 1,05em;
 }
 
 li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+	padding: 18px;
 }
 
 li a:hover {
 	background-color: #3C787E;
-	font-size: 1.05em;
-	transition-duration: 1s;
+}
+
+.active{
+	background-color: #3C787E;
+}
+
+.index-img{
+	width: 100%;
+}
+
+.index-img{
+	background-image: url("./bilder/brygga.jpg") ; 
+	height: 600px;
+	background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.main-frame{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: rgb(238, 238, 238);
+	opacity: 95%;
+	border-radius: 7px;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+.frame-1{
+	background: rgb(155, 86, 155);
+	color: white;
+	border-radius:10px;
+	transition: transform .2s;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.frame-1:hover{
+	transform: scale(1.03);
+}
+
+.frame-1-1{
+	background: rgb(215, 145, 224);
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 0%;
+	width: 100%;
+	height: 75%;
+}
+
+.header-1{
+ padding: 10%;
+}
+
+.frame-2{
+	background: rgb(95, 165, 127);
+	color: white;
+	border-radius:10px;
+	transition: transform .2s;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.frame-2:hover{
+	transform: scale(1.03);
+}
+
+.frame-2-1{
+	background: rgb(133, 216, 177);
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 0%;
+	width: 100%;
+	height: 75%;
+}
+
+.header-2{
+	padding: 10%;
+}
+
+.frame-3{
+	background: rgb(89, 164, 194);
+	color: white;
+	border-radius:10px;
+	transition: transform .2s;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.frame-3:hover{
+	transform: scale(1.03);
+}
+
+.frame-3-1{
+	background: rgb(140, 198, 221);
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 0%;
+	width: 100%;
+	height: 75%;
+}
+
+.header-3{
+	padding: 10%;
 }
 
 
