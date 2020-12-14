@@ -44,7 +44,6 @@ table {
 }
 /* CSS-RESET END*/
 
-
 body{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -79,7 +78,6 @@ a{
 	padding: 20px;
 }
 
-
 /*Header-Start*/
 header{
 	background-color: white;
@@ -90,7 +88,9 @@ header{
 	grid-template-columns: auto auto auto;
 }
 
-.logo{
+.topbar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	padding: 1em;
 }
 
@@ -220,8 +220,6 @@ li a:hover {
 .header{
  padding: 10%;
 }
-
-
 /*Index-End*/
 
 /*Val-Start*/
