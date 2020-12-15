@@ -333,3 +333,9 @@ li a:hover {
 	text-align: center;
 }
 /*404-End*/
+
+
+.scrollable {
+	height: 100px; /* or any value */
+	overflow-y: auto;
+}
