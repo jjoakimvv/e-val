@@ -57,7 +57,7 @@ a{
   grid-template-areas:
     'header'
     'main'
-    'footer';
+				'footer';
 }
 
 .grid1 { 
@@ -92,7 +92,7 @@ header{
 	padding: 18px;
 	height: 18px;
 	overflow: hidden;
-	background-color: #192A51;
+	background-color: #1E3474;
 }
 
 .navbar{
@@ -109,7 +109,7 @@ ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #192A51;
+	background-color: #1E3474;
 }
 
 li {
@@ -288,7 +288,7 @@ li a:hover {
 /*Val-Start*/
 .val-img{
 	background-image: url("./bilder/val.jpg") ; 
-	height: 500px;
+	height: 550px;
 	background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -296,14 +296,15 @@ li a:hover {
 
 .val-frame{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	background-color: rgb(255, 247, 176);
 	opacity: 95%;
 	border-radius: 7px;
-	width: 95%;
+	width: 90%;
 	height: 90%;
 	margin-top: 2%;
-	margin-left: 2.5%;
+	margin-left: 5%;
+	text-align: center;
 }
 /*Val-End*/
 
