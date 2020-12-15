@@ -306,6 +306,11 @@ li a:hover {
 	margin-left: 5%;
 	text-align: center;
 }
+
+.scrollable {
+	height: 100px;
+	overflow-y: auto;
+}
 /*Val-End*/
 
 /*Info-Start*/
